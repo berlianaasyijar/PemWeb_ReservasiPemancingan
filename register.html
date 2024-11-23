@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Daftar</title>
+        <link rel="stylesheet" type="text/css" href="../assets/styles/stylefitur.css" />
+
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    </head>
+    <body>
+        <div class="container-signin">
+            <div class="signin">
+                <a href="signin.html" class="back"> 
+                    <span class="material-symbols-outlined">
+                        arrow_back
+                    </span>
+                </a>
+                <a href="#" class="logo">FISHING</a>
+                <div class="title">Daftar</div>
+                <div class="subtitle">Daftarkan akunmu di FISHING untuk mendapatkan pengalaman baru dalam mencari kolam pemancingan</div>
+                <div class="form">
+                    <div class="alert danger rounded d-none mb-3"><span class="material-symbols-outlined">warning</span>&nbsp;<div id="message"></div></div>
+                    <div class="form-group mb-3">
+                        <div class="label">Email</div>
+                        <input type="email" class="form-control" placeholder="Masukan email" id="email"></input>
+                    </div>
+                    <div class="form-group mb-3">
+                        <div class="label">Password</div>
+                        <input type="password" class="form-control" placeholder="Masukan password" id="password"></input>
+                    </div>
+                    <a href="javascript:void(0)" class="btn btn-block mb-3" id="register">Daftar Akun</a>
+                    <div class="separator mb-3">Atau</div>
+                    <a href="javascript:void(0)" class="btn btn-block btn-white mb-3" id="google"><img src="../assets/img/google.png" class="icon" /> &nbsp; Daftar Dengan Google</a>
+                    <div class="have-account">Sudah punya akun ? <a href="../pages/signin.html">Login</a></div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="../assets/js/authentication.js?v=210120241142" type="module"></script>
+    </body>
+</html>
