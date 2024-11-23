@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fishing</title>
+        <link rel="stylesheet" type="text/css" href="./assets/styles/stylefitur.css" />
+
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">FISHING</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+
+            <div class="d-flex align-items-center">
+                <ul class="navbar" id="menu">
+                    <li><a href="javascript:void(0)" data-target="#home">Beranda</a></li>
+                    <li><a href="javascript:void(0)" data-target="#service">Layanan</a></li>
+                    <li><a href="javascript:void(0)" data-target="#gallery">Galeri</a></li>
+                    <li><a href="javascript:void(0)" data-target="#price">Harga</a></li>
+                    <li><a href="javascript:void(0)" data-target="#about">Tentang Kami</a></li>
+                    <li id="menu-reservation"><a href="javascript:void(0)" data-target="#reservation">Reservasi</a></li>
+                </ul>
+                <a href="./pages/signin.html" id="signin" class="btn ml-2 d-none">Login</a>
+                <a href="javascript:void(0)" id="signout" class="btn ml-2 d-none">Logout</a>
+            </div>
+        </header>
+
+        <!------home start------>
+        <section class="home" id="home">
+            <div class="home-text">
+                <h1>SuperFish</h1>
+                <h2>Pemancingan <br> murah dan lengkap!</h2>
+                <a href="javascript:void(0)" class="btn" id="btn-reservation">Reservasi</a>
+            </div>
+
+            <div class="home-img">
+                <img src="./assets/img/ikan2.png">
+            </div>
+
+        </section>
+
+        <!-----layanan start----->
+        <section class="services" id="service">
+            <div class="heading">
+                <span>LAYANAN</span>
+                <h2>Layanan Pemancingan Superfish</h2>
+            </div>
+
+            <div class="service-container">
+                <div class="s-box">
+                    <img src="./assets/img/lvl 1.png">
+                    <h3>Pemancingan Level 1</h3>
+                    <p>Fasilitas : Alat Memancing, Pakan Ikan, Maksimal 1 jam.</p>
+                </div>
+
+                <div class="s-box">
+                    <img src="./assets/img/KOLAM'.png">
+                    <h3>Pemancingan Level 2</h3>
+                    <p>Fasilitas : Alat Memancing, Pakan Ikan, maksimal 2 jam.</p>
+                </div>
+
+                <div class="s-box">
+                    <img src="./assets/img/lvl 3.png">
+                    <h3>Pemancingan Level 3</h3>
+                    <p>Fasilitas : Alat Memancing, Pakan Ikan, Tempat Privat.</p>
+                </div>
+            </div>
+        </section>
+
+          <!-----galeri start----->
+        <section class="services" id="gallery">
+            <div class="heading">
+                <span>Galeri</span>
+                <h2>Galeri Pemancingan Superfish</h2>
+            </div>
+
+            <div class="service-container">
+                <div class="s-box">
+                    <img src="./assets/img/KOLAM'.png">
+                    <h3>Kolam Pemancingan</h3>
+                    <p>Fasilitas : Alat Memancing, Pakan Ikan, Tempat duduk dll.</p>
+                </div>
+
+                <div class="s-box">
+                    <img src="./assets/img/RESTO.png">
+                    <h3>Restoran</h3>
+                    <p>Terdapat berbagai macam makanan enak & murah.</p>
+                </div>
+
+                <div class="s-box">
+                    <img src="./assets/img/MUSHOLA.png">
+                    <h3>Mushola</h3>
+                    <p>Fasilitas : Mushola luas, dan Alat sholat lengkap</p>
+                </div>
+            </div>
+        </section>
+
+        <!-----menu start----->
+        <section class="menu" id="price">
+            <div class="heading">
+                <span>HARGA</span>
+                <h2>Harga Pemancingan Superfish</h2>
+            </div>
+
+            <div class="menu-container">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="./assets/img/lvl 1.png">
+                    </div>
+                    <h2>Pemancingan 1</h2>
+                    <h3>Level 1</h3>
+                    <span>Rp 20.000/jam</span>
+                    <!--<i class='bx bx-cart'></i>-->
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="./assets/img/KOLAM'.png">
+                    </div>
+                    <h2>Pemancingan 2</h2>
+                    <h3>Level 2</h3>
+                    <span>Rp 40.000/jam</span>
+                    <!--<i class='bx bx-cart'></i>-->
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="./assets/img/lvl 3.png">
+                    </div>
+                    <h2>Pemancingan 3</h2>
+                    <h3>Level 3</h3>
+                    <span>Rp 60.000/jam</span>
+                    <!--<i class='bx bx-cart'></i>-->
+                </div>
+            </div>
+        </section>
+
+        <!-----about start----->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="./assets/img/pemancingan.png">
+            </div>
+
+            <div class="about-text">
+                <span>Tentang Kami</span>
+                <h2>Pemancingan SuperFish</h2>
+                <p>Kolam pemancingan SuperFish atau biasa disebut pemancingan SF berdiri sejak bulan Oktober 2023. 
+                    Terletak dikota Purwokerto Jawa Tengah, tepatnya di Purwokerto Utara wilayah Kebun Raya Baturaden. 
+                    Dimana kami menyediakan kolam pemancingan harian dan kolam pemancingan perkiloan.</p>
+                <!-- <a href="#" class="btn">Learn More</a> -->
+            </div>
+        </section>
+
+        <!-----call to action----->
+        <section class="cta" id="reservation">
+            <div class="notification d-none" id="notification-reservation">
+                <div class="alert danger rounded-top" id="alert-reservation">
+                    Reservasi Gagal Dilakukan !
+                </div>
+            </div>
+            <div class="cta-body">
+                <ul class="navbar navbar-dark padding-horizontal border-bottom pb-2" id="tab-reservation">
+                    <li><a href="javascript:void(0)" id="new-reservation" class="menu-item active">Pengajuan Baru</a></li>
+                    <li><a href="javascript:void(0)" id="history-reservation" class="menu-item ml-2">Riwayat Reservasi</a></li>
+                </ul>
+                <div id="form-reservation" class="form">
+                    <h2>Datang dan <br>Reservasi Sekarang!</h2>
+                    <div class="form-two-column mb-3">
+                        <div class="form-group">
+                            <label class="label">Nama Lengkap</label>
+                            <input type="text" class="form-control" placeholder="Masukan nama lengkap" id="name" />
+                        </div>
+                        <div class="form-group">
+                            <label class="label">Nomor HP</label>
+                            <input type="number" class="form-control" placeholder="Masukan nomor HP" id="phone" />
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="label">Email</label>
+                        <input type="email" class="form-control" placeholder="Email" id="email" readonly />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="label">Level Pemancingan</label>
+                        <select class="form-control" id="level">
+                            <option value="1">Level 1</option>
+                            <option value="2">Level 2</option>
+                            <option value="3">Level 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="label">Jumlah Orang</label>
+                        <input type="number" class="form-control" placeholder="Masukan jumlah orang" id="total-person" />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="label">Tanggal Pemesanan</label>
+                        <input type="date" class="form-control" placeholder="yyyy/mm/dd" id="date" />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="label">Metode Pembayaran</label>
+                        <select class="form-control" id="payment">
+                            <option>Bayar Ditempat</option>
+                        </select>
+                    </div>
+                    <a href="javascript:void(0)" class="btn" id="submit-reservation">Reservasi</a>
+                </div>
+                <div id="preview-reservation" class="preview d-none">
+                    <div class="header">
+                        <div class="title">Rincian Pemesanan</div>
+                    </div>
+                    <div class="body">
+                        <div class="title">Detail Transaksi</div>
+                        <div class="content">
+                            <div class="label">Email</div>
+                            <div class="value" id="value-email">-</div>
+                        </div>
+                        <div class="content">
+                            <div class="label">Tanggal Pemesanan</div>
+                            <div class="value" id="value-date">-</div>
+                        </div>
+                        <div class="content">
+                            <div class="label">Level Pemancingan</div>
+                            <div class="value" id="value-level">-</div>
+                        </div>
+                        <div class="content">
+                            <div class="label">Jumlah Orang</div>
+                            <div class="value" id="value-total-person"></div>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <div class="content">
+                            <div class="label">Total Harga</div>
+                            <div class="value" id="value-price">Rp 0</div>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0)" class="btn" id="process-reservation">Ajukan Reservasi</a>
+                    <a href="javascript:void(0)" class="btn d-none" id="reset-reservation">Reservasi Lagi</a>
+                </div>
+                <div id="table-history-reservation" class="history d-none">
+                    <h4 class="mb-3">Riwayat Pemesanan</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nama Lengkap</th>
+                                <th>Level Pemancingan</th>
+                                <th>Jumlah Orang</th>
+                                <th>Tanggal Pemesanan</th>
+                                <th>Metode Pembayaran</th>
+                                <th>Total Harga</th>
+                            </tr>
+                        </thead>
+                        <tbody id="data-history-reservation">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-----footer start----->
+        <section id="contact">
+            <div class="footer">
+                <div class="main">
+                    <div class="col">
+                        <h4>Menu Website</h4>
+                        <ul>
+                            <li><a href="#">Beranda</a></li>
+                            <li><a href="#">Layanan</a></li>
+                            <li><a href="#">Galeri</a></li>
+                            <li><a href="#">Harga</a></li>
+                            <li><a href="#">Reservasi</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <h4>Layanan</h4>
+                        <ul>
+                            <li><a href="#">Pemancingan</a></li>
+                            <li><a href="#">Restoran</a></li>
+                            <li><a href="#">Tempat Beribadah</a></li>
+                            <li><a href="#">Taman</a></li>
+                            <li><a href="#">Toilet</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <h4>Informasi</h4>
+                        <ul>
+                            <li><a href="#">Tentang Kami</a></li>
+                            <li><a href="#">Harga</a></li>
+                            <li><a href="#">Layanan</a></li>
+                            <li><a href="#">Fasilitas</a></li>    
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <h4>Contact Us</h4>
+                        <div class="social">
+                            <a href="#"><i class='bx bxl-facebook' ></i></a>
+                            <a href="#"><i class='bx bxl-instagram' ></i></a>
+                            <a href="#"><i class='bx bxl-twitter' ></i></a>
+                            <a href="#"><i class='bx bxl-youtube' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="./assets/js/index.js?v=210120241847" type="module"></script>
+    </body>
+</html>
